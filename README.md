@@ -32,7 +32,7 @@ Articles:
 https://www.aecf.org/blog/exploring-americas-food-deserts
 https://www.brookings.edu/research/beyond-food-deserts-america-needs-a-new-approach-to-mapping-food-insecurity/
  
-![multimedia1](img/multimedia1.JPG)
+![multimedia1](img/multimedia1.JPG) 
 
 ![multimedia1](img/multimedia2.JPG)
 
