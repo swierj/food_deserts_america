@@ -12,14 +12,15 @@
 <!-- Changes so far -->
     <style>
         .sidenav {
-          width: 250px;
-          position: fixed;
+          width: 60%;
           z-index: 1;
-          top: 95px;
-          left: 10px;
+          top: 8rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
           background: #eee;
           overflow-x: hidden;
-          padding: 8px 0;
+          padding: 1rem;
+          border-radius: 10px;
         }
 
         .sidenav a {
@@ -30,10 +31,27 @@
           display: block;
         }
 
+        .sidenav h1 {
+            text-align: center;
+        }
+
         .main {
-          margin-left: 265px;
-          font-size: 28px;
+          margin-right: 0;
+          font-size: 20px;
           padding: 0px 10px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 90%;
+            margin: 0.5rem;
+            border-radius: 10px;
+            padding: 0.5rem;
+        }
+
+        .main-container {
+            display: inline-flex;
         }
 
     </style>
@@ -56,28 +74,38 @@
         </div>
     </div>
 
-    <script src="js/index.js"></script>
-
 </body>
 <body>
-    <div class="sidenav">
-        <h1>The Team</h1>
-        <p><b>Jacob Swierz</b> (Geography:Data Science) - WebPage host; Map Symbols and Data Organizer; Group Organizer.</p>
-        <p><b>Marcus King</b> (Geography:Data Science) - Choropleth Map creation; Data Managing.</p>
-        <p><b>Olivia Mao</b> (Geography) - Choropleth Map creation; Shapefile creator; Data Managing.</p>
-        <p><b>Minjie Kim</b> (Geography:Data Science) - Map Symbols and Data Organizer; Page layout.</p>
-        <p><b>Baldemar Zamudio</b> (Geography:Data Science) - Pages: About, Methodology, and Credits.</p>
-    </div>
-    <div class="main">
-        <h2 style="text-align:center;">About our Project</h2>
-        <h2>About the Team</h2>
-        <p>This project was organized by the contributions of a team of five different individuals for a presentation in the class GEOG 458. All of our members are students of the University of Washington.</p>
-        <h2>What is a Food Desert?</h2>
-        <p>A “food desert” generally refers to an area where the population has limited access to fresh and healthy food. In this project, we want to explore spatial distribution of the food deserts in the U.S. and illustrate how the accessibility of transportation, below poverty population are in relation with the accessibility of fresh and healthy food.
-        A <a href="https://www.youtube.com/watch?v=dDbENx9c3Fg">short video</a> from Vice news helps explain in detail about a food desert in New York City</p>
-        <p>Food Deserts are not limited to poor or rural areas, they can occur anywhere where affordability is an issue as a result of discrimination, racism, or cultural ignorance. Areas that do not provide healthy options and are limited to fast food franchises are considered food deserts as they are unable to provide options for residents to eat.</p>
-        <h2>Why is it important?</h2>
-        <p>The topic of Food Deserts is something that is not considered among many people but is an important issue in our country that deserves recognition. Our group decided to map this phenonenom throughout the United States to bring awareness to the topic, hoping that individuals can discover their local food access ratings and find solutions within their communities.</p>
+    <div class="main-container">
+        <div class="sidenav">
+            <h1>The Team</h1>
+            <div class="card">
+                <p><b>Jacob Swierz (Geography:Data Science)</b> </p> <p><b>Role<br></b>Maps and About Page | Assembling Maps | Data Organizing | Group Organizer</p>
+            </div>
+            <div class="card">
+                <p><b>Marcus King (Geography:Data Science)</b> </p> <p><b>Role<br></b>Choropleth Map | Data Organizing</p>
+            </div>
+            <div class="card">
+                <p><b>Olivia Mao (Geography:Data Science)</b> </p> <p><b>Role<br></b>Choropleth Map | Shapefiles | Data Organaizing</p>
+            </div>
+            <div class="card">
+                <p><b>Minjie Kim (Geography:Data Science)</b> </p> <p><b>Role<br></b>Symbol Proportion Map | Data Organaizing | Page Layout</p>
+            </div>
+            <div class="card">
+                <p><b>Baldemar Zamudio (Geography:Data Science)</b> </p> <p><b>Role<br></b>Web Pages</p>
+            </div>
+        </div>
+        <div class="main">
+            <h2 style="text-align:center;">About our Project</h2>
+            <h2>About the Team</h2>
+            <p>This project was organized by the contributions of a team of five different individuals for a presentation in the class GEOG 458. All of our members are students of the University of Washington.</p>
+            <h2>What is a Food Desert?</h2>
+            <p>A “food desert” generally refers to an area where the population has limited access to fresh and healthy food. In this project, we want to explore spatial distribution of the food deserts in the U.S. and illustrate how the accessibility of transportation, below poverty population are in relation with the accessibility of fresh and healthy food.
+            A <a href="https://www.youtube.com/watch?v=dDbENx9c3Fg">short video</a> from Vice news helps explain in detail about a food desert in New York City</p>
+            <p>Food Deserts are not limited to poor or rural areas, they can occur anywhere where affordability is an issue as a result of discrimination, racism, or cultural ignorance. Areas that do not provide healthy options and are limited to fast food franchises are considered food deserts as they are unable to provide options for residents to eat.</p>
+            <h2>Why is it important?</h2>
+            <p>The topic of Food Deserts is something that is not considered among many people but is an important issue in our country that deserves recognition. Our group decided to map this phenonenom throughout the United States to bring awareness to the topic, hoping that individuals can discover their local food access ratings and find solutions within their communities.</p>
+        </div>
     </div>
 </body>
 

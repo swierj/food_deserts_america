@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
     <style>
         body {
             margin: 0;
@@ -16,7 +17,7 @@
 
         #map {
             position: absolute;
-            top: 0;
+            top: 6rem;
             bottom: 0;
             width: 100%;
         }
@@ -67,6 +68,21 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="navbar">
+            <div class="title">
+                Food Deserts in the US
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="about.html"><p>About</p></a></li>
+                    <li><a href="index.html"><p>Maps</p></a></li>
+                    <li><a href="methodology.html"><p>Methodology</p></a></li>
+                    <li><a href="credits.html"><p>Credits</p></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
     <div id="map"></div>
     <div id="legend"></div>
     <script>
@@ -91,7 +107,7 @@
             // add a source of the data and then add the layer out of the source
             map.addSource('income', {
                 type: 'geojson',
-                data: 'assests/income_county.json'
+                data: 'assets/income_county.json'
             });
 
             map.addLayer({
