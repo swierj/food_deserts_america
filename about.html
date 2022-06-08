@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <!-- This is gonna be the "about" page with introduction to the project and our team members -->
 <head>
@@ -10,6 +9,34 @@
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"/>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+<!-- Changes so far -->
+    <style>
+        .sidenav {
+          width: 130px;
+          position: fixed;
+          z-index: 1;
+          top: 20px;
+          left: 10px;
+          background: #eee;
+          overflow-x: hidden;
+          padding: 8px 0;
+        }
+
+        .sidenav a {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #2196F3;
+          display: block;
+        }
+
+        .main {
+          margin-left: 140px; /* Same width as the sidebar + left position in px */
+          font-size: 28px; /* Increased text to enable scrolling */
+          padding: 0px 10px;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -33,22 +60,20 @@
 
 </body>
 <body>
-    <div class="wrapper">
-        <div class="sidebar"> 
-            <h1>About the Team</h1>
-            <div class="profile">
-                <h3><b>Jacob Swierz</b></h3>
-                <h4>Geography:Data Science</h4>
-                <p>WebPage host; Map Symbols and Data Organizer; Group Organizer.</p>
-                <p><b>Marcus King</b> (Geography:Data Science) - Choropleth Map creation; Data Managing.</p>
-                <p><b>Olivia Mao</b> (Geography) - Choropleth Map creation; Shapefile creator; Data Managing.</p>
-                <p><b>Minjie Kim</b> (Geography:Data Science) - Map Symbols and Data Organizer; Page layout.</p>
-                <p><b>Baldemar Zamudio</b> (Geography:Data Science) - Pages: About, Methodology, and Credits.</p>
-            </div>
-        </div>
+    <div class="sidenav">
+        <h1>About the Team</h1>
+        <h3><b>Jacob Swierz</b></h3>
+        <h4>Geography:Data Science</h4>
+        <p>WebPage host; Map Symbols and Data Organizer; Group Organizer.</p>
+        <p><b>Marcus King</b> (Geography:Data Science) - Choropleth Map creation; Data Managing.</p>
+        <p><b>Olivia Mao</b> (Geography) - Choropleth Map creation; Shapefile creator; Data Managing.</p>
+        <p><b>Minjie Kim</b> (Geography:Data Science) - Map Symbols and Data Organizer; Page layout.</p>
+        <p><b>Baldemar Zamudio</b> (Geography:Data Science) - Pages: About, Methodology, and Credits.</p>
     </div>
-     <p><b>This project is part of a contribution of a team of five different individuals for a presentation for GEOG 458</b></p>
+    <div class="main">
+    <p><b>This project is part of a contribution of a team of five different individuals for a presentation for GEOG 458</b></p>
     <p>The topic of Food Deserts is important in our country and we decided to map this phenonenom throughout the United States as best as we could. All of our members are students of the University of Washington in the class Geography 458</p>
+    </div>
 </body>
 
 </html>
