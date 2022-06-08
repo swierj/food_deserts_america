@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Earthquakes in Japan</title>
+    <title>Average Household Income (USD)</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
@@ -79,9 +79,9 @@
             center: [-100, 40] // starting center
         });
 
-        const grades = [40000, 50000, 60000],
+        const grades = [40000, 60000, 80000],
             colors = ['rgb(208,209,230)', 'rgb(103,169,207)', 'rgb(1,108,89)'],
-            radii = [5, 15, 20];
+            radii = [3, 5, 10];
 
         //load data to the map as new layers.
         //map.on('load', function loadingData() {
@@ -98,11 +98,11 @@
                     'id': 'income-point',
                     'type': 'circle',
                     'source': 'income',
-                    'minzoom': 3,
+                    'minzoom': 4,
                     'paint': {
                         // increase the radii of the circle as the zoom level and dbh value increases
                         'circle-radius': {
-                            'property': 'Median_Household_Income_2020',
+                            'property': 'Income',
                             'stops': [
                                 [{
                                     zoom: 5,
@@ -119,7 +119,7 @@
                             ]
                         },
                         'circle-color': {
-                            'property': 'Median_Household_Income_2020',
+                            'property': 'Income',
                             'stops': [
                                 [grades[0], colors[0]],
                                 [grades[1], colors[1]],
@@ -139,7 +139,7 @@
             map.on('click', 'income-point', (event) => {
                 new mapboxgl.Popup()
                     .setLngLat(event.features[0].geometry.coordinates)
-                    .setHTML(`<strong>Income:</strong> ${event.features[0].properties.Median_Household_Income_2020}`)
+                    .setHTML(`<strong>Income:</strong> ${event.features[0].properties.Income} <br> <strong>County:</strong> ${event.features[0].properties.county}`)
                     .addTo(map);
             });
 
@@ -167,7 +167,7 @@
         }
         // add the data source
         const source =
-            '<p style="text-align: right; font-size:10pt">Source: <a href="https://earthquake.usgs.gov/earthquakes/">USGS</a></p>';
+            '<p style="text-align: right; font-size:10pt">Source: <a href="https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/">USDA</a></p>';
         // combine all the html codes.
         legend.innerHTML = labels.join('') + source;
     </script>
