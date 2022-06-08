@@ -11,7 +11,7 @@ body{
 }
 
 .navbar {
-    display: inline;
+    display: inline-flex;
     align-items: center;
 }
 
@@ -49,6 +49,7 @@ a {
     color: black;
     font-size: x-large;
     font-weight: 800;
+    margin-right: 20rem;
 }
 
 .row {
@@ -64,6 +65,7 @@ a {
     height: 90%;
     width: 100%;
     display: inline-flex;
+    margin-left: 3rem;
 }
 
 .row-card img {
