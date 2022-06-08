@@ -6,12 +6,12 @@ body{
 /* Nav Bar */
 .container {
     padding-left: 15%;
-    padding-right: 15%;
+    padding-right: 5%;
     background-color: gray;
 }
 
 .navbar {
-    display: inline;
+    display: inline-flex;
     align-items: center;
 }
 
@@ -49,6 +49,7 @@ a {
     color: black;
     font-size: x-large;
     font-weight: 800;
+    margin-right: 10rem;
 }
 
 .row {
@@ -64,6 +65,7 @@ a {
     height: 90%;
     width: 100%;
     display: inline-flex;
+    margin-left: 3rem;
 }
 
 .row-card img {
