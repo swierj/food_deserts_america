@@ -58,13 +58,15 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5ic
                 '6000+'
             ];
             const colors = [
-                '#FFEDA070',
-                '#FED97670',
-                '#FEB24C70',
-                '#FD8D3C70',
-                '#FF0000',
-                '#8B0000',
-                '#000000'
+                '#000000',
+                '#FFEDA0',
+                '#FED976',
+                '#FEB24C',
+                '#FD8D3C',
+                '#FC4E2A',
+                '#E31A1C',
+                '#BD0026',
+                '#800026'
             ];
 
             const legend = document.getElementById('legend');
