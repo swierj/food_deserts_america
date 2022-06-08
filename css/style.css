@@ -61,7 +61,7 @@ body2{
 .wrapper .sidebar{
     background: rgb(5, 68, 104);
     position: fixed;
-    top: 30;
+    top: 0;
     left: 0;
     width: 225px;
     height: 100%;
