@@ -6,11 +6,12 @@ body{
 .container {
     padding-left: 15%;
     padding-right: 15%;
+    padding-bottom: 2%;
     background-color: gray;
 }
 
 .navbar {
-    display: flex;
+    display:inline;
     align-items: center;
 }
 
