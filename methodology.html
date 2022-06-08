@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 <html>
-<!-- This is gonna be the methodology page. Doesn't need much other than the navbar and an explanation of methodology and dataset(s) used -->
+
 <head>
     <meta charset="utf-8">
     <title>Food Deserts in the US</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
-    
-    <style>
-        .main {
-          margin-left: 15px;
-          font-size: 28px;
-          padding: 0px 10px;
-        }
-
-    </style>
 </head>
 
 <body>
@@ -28,10 +19,18 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="about.html"><p>About</p></a></li>
-                    <li><a href="index.html"><p>Map</p></a></li>
-                    <li><a href="methodology.html"><p>Methodology</p></a></li>
-                    <li><a href="credits.html"><p>Credits</p></a></li>
+                    <li><a href="about.html">
+                            <p>About</p>
+                        </a></li>
+                    <li><a href="index.html">
+                            <p>Map</p>
+                        </a></li>
+                    <li><a href="methodology.html">
+                            <p>Methodology</p>
+                        </a></li>
+                    <li><a href="credits.html">
+                            <p>Credits</p>
+                        </a></li>
                 </ul>
             </nav>
         </div>
@@ -43,15 +42,30 @@
 
 <body>
     <div class="main">
-        <h1 style="text-align:center">Methodology</h1>
-        <h2>Functions of our Web Map</h2>
-        <p>For our project’s functions we created an interactive web map that will allow the user to switch between rural and urban food desert areas as we want to separate the two for more clarity due to them being different areas of interest. Furthermore, we created an option that will allow the user to pick a given distance that the map will use to show store proximity. For example, selecting 3 miles would display areas within a 3 mile distance to the nearest food store.</p>
-        <p>Another function we added is a filter that will allow the user to filter by state so that they can get a closer look at their area of interest. We added a pop-up window for supplemental information like poverty rates or number food banks when a user clicks on a county/state.
-        <h2>How Our Project Works</h2>
-        <p>Our map uses <a href="https://www.openstreetmap.org/#map=5/38.007/-95.844">Open Street Map</a> to display the results for our project, using data from the UDSA we are able to map areas that have low access to food supply based on the distance and availability of grocery stores from residential housing.
-        Shapefiles are used to set boundaries of the map and to aggregate the data via county, state, or any other format selected by the user.</p>
-        <p>A complete list of our datasets and sources can be found in the <a href="https://swierj.github.io/food_deserts_america/credits.html">credits page</a>.</p>
+        <h1>Methodology</h1>
+        <h2>The Data</h2>
+        <p>
+            In order to have usable data for the project, our group had to gather data from multiple
+            datasets.  One dataset did not have all the data we needed, so we used various methods to
+            combine and merge our data together such as using Google Colab to use python and the
+            pandas library to merge together data sets and export the data.  We also used excel to
+            filter and extract the necessary data, and used csv to json converters to format the data
+            so that it can be usable.
+        </p>
+        <h2>The Maps</h2>
+        <p>
+            Our maps use <a href="https://www.openstreetmap.org/#map=5/38.007/-95.844">Open Street Map</a>
+            to display the results for our project. For our first and second map, using data from the
+            UDSA we are able to map areas that are either low access or low access and low income to
+            a grocery store based on a certain distance away depending on if the area is in a rural
+            or urban area. The third map is a porprotional symbols map of the median household incomes
+            of each county in the US.
+        </p>
+        <p>
+            A complete list of our datasets and sources can be found in the
+            <a href="https://swierj.github.io/food_deserts_america/credits.html">credits page</a>.
+        </p>
     </div>
-        </body>
+</body>
 
 </html>
