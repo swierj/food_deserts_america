@@ -14,7 +14,7 @@
         .sidenav {
           width: 60%;
           z-index: 1;
-          top: 8rem;
+          margin-top: 1rem;
           margin-left: 1rem;
           margin-right: 1rem;
           background: #eee;
@@ -36,7 +36,7 @@
         }
 
         .main {
-          margin-right: 0;
+          margin-right: 1rem;
           font-size: 20px;
           padding: 0px 10px;
         }
@@ -52,6 +52,16 @@
 
         .main-container {
             display: inline-flex;
+        }
+
+        .img-text {
+            display:inline-flex;
+        }
+
+        img {
+            margin-right:2rem;
+            border-radius: 10px;
+            max-width: 40%;
         }
 
     </style>
@@ -100,9 +110,11 @@
             <h2>About the Team</h2>
             <p>This project was organized by the contributions of a team of five different individuals for a presentation in the class GEOG 458. All of our members are students of the University of Washington.</p>
             <h2>What is a Food Desert?</h2>
-            <p>A “food desert” generally refers to an area where the population has limited access to fresh and healthy food. In this project, we want to explore spatial distribution of the food deserts in the U.S. and illustrate how the accessibility of transportation, below poverty population are in relation with the accessibility of fresh and healthy food.
-            A <a href="https://www.youtube.com/watch?v=dDbENx9c3Fg">short video</a> from Vice news helps explain in detail about a food desert in New York City</p>
-            <p>Food Deserts are not limited to poor or rural areas, they can occur anywhere where affordability is an issue as a result of discrimination, racism, or cultural ignorance. Areas that do not provide healthy options and are limited to fast food franchises are considered food deserts as they are unable to provide options for residents to eat.</p>
+            <div class="img-text">
+                <img src="img/fooddesert.jpeg" alt="food desert">
+                <p>A “food desert” generally refers to an area where the population has limited access to fresh and healthy food. In this project, we want to explore spatial distribution of the food deserts in the U.S. and illustrate how the accessibility of transportation, below poverty population are in relation with the accessibility of fresh and healthy food. A <a href="https://www.youtube.com/watch?v=dDbENx9c3Fg">short video</a> from Vice news helps explain in detail about a food desert in New York City. <br>
+                <br>Food Deserts are not limited to poor or rural areas, they can occur anywhere where affordability is an issue as a result of discrimination, racism, or cultural ignorance. Areas that do not provide healthy options and are limited to fast food franchises are considered food deserts as they are unable to provide options for residents to eat.</p> 
+            </div>
             <h2>Why is it important?</h2>
             <p>The topic of Food Deserts is something that is not considered among many people but is an important issue in our country that deserves recognition. Our group decided to map this phenonenom throughout the United States to bring awareness to the topic, hoping that individuals can discover their local food access ratings and find solutions within their communities.</p>
         </div>
