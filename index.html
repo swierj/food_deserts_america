@@ -24,9 +24,9 @@
 
         .row {
             position: absolute;
-            top: 100px;
-            height: 80%;
-            width: 80%;
+            top: 90px;
+            height: 90%;
+            width: 100%;
         }
         
     </style>
@@ -49,7 +49,10 @@
                 </ul>
             </nav>
         </div>
-        <div class="row"><div id="map"></div></div>
+    </div>
+
+    <div class="row">
+        <div id="map"></div>
     </div>
 
  
@@ -59,9 +62,9 @@
             'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
         let map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/navigation-day-v1',
-            zoom: 3,
-            center: [ -95.712891, 37.09024]
+            style: 'mapbox://styles/mapbox/light-v10',
+            zoom: 4,
+            center: [ -100, 40]
         });
     </script>
 </body>
