@@ -83,8 +83,12 @@
             </nav>
         </div>
     </div>
+
     <div id="map"></div>
     <div id="legend"></div>
+    <div id="title">
+        Median Household Income in 2020
+    </div>
     <script>
         mapboxgl.accessToken =
             'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
@@ -171,7 +175,7 @@
         const legend = document.getElementById('legend');
 
         //set up legend grades and labels
-        var labels = ['<strong>Median Household Income (USD)</strong>'],
+        var labels = ['<strong>USD ($)</strong>'],
             vbreak;
         //iterate through grades and create a scaled circle and label for each
         for (var i = 0; i < grades.length; i++) {
