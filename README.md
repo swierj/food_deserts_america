@@ -1,7 +1,7 @@
 # Digital Geographies: Food Deserts In America
 Our complete project can be found at https://swierj.github.io/food_deserts_america/
 
-## Parts of the Project
+## Project Format
 ### About Page
 ### Maps Page
 ### Methadology Page
