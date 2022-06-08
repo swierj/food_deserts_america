@@ -43,3 +43,10 @@ nav ul li a p:hover {
 a {
     text-decoration: none;
 }
+
+.title {
+    color: black;
+    font-size: x-large;
+    font-weight: 800;
+    font-family: sans-serif;
+}
