@@ -1,4 +1,4 @@
-# Peer Reviewed Proposal Update
+# Digital Geographies: Food Deserts In America
 
 ## Idea, significance, impacts  (delete title later)
 
