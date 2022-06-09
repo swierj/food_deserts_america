@@ -33,16 +33,8 @@ Local Government officials who can focus on areas lacking in a stable food sourc
 - Github pages
 - Mapbox
 
-The Main function of our map is to present counties that face higher levels of food deserts. We want to be able to compare rural and urban areas on their food ability status and filter counties based on distance to housing markets. Our map will have the ability to filter these values through many tools on a sidebar such as a slider that changes the mile distance between housing and supermarkets, drop down menus for different themes, and radio buttons that can select either urban, rural, or both areas to be focused on the map.
-
-USDA ERS (CSV File): This Dataset maps food access in rural and urban areas by supermarket distance from housing within census tracts. The data is organized conveniently so grabbing values by county is simple.
-
-
-## Target audience
-
-Anyone who wants to learn more about food deserts is welcome to view our map. We want to create our map to be understood by the average person who may be affected by food deserts. Our main purpose is to provide a tool that can be used to improve living conditions for residents, we would like the following groups to view our map:
-Underprivileged/vulnerable residents looking for stable areas with a safe food source.
-Local Government officials who can focus on areas lacking in a stable food source.
+## Acknowledgments
+A special thanks to the instructor of the course Geog 458 Bo Zhao and the TA's Jiaxin Feng and Steven Bao!
  
  
 
