@@ -13,9 +13,9 @@ Our complete project can be found at https://swierj.github.io/food_deserts_ameri
 
 A “food desert” generally refers to an area where the population has limited access to fresh and healthy food. A common misconception regarding these food deserts is defining this term as a lack of food all together and believing such only occurs in highly impoverished locations. On the contrary, a food desert can happen in even the most metropolitan of areas. A modern example of a food desert lies in cities where fast food locations are the main or only source of food and where healthy food is either too expensive or non-existent in certain communities. In this project, we want to demonstrate the highest probable locations and spatial distributions of the food deserts in the U.S. based on the multifactorial circumstances that typically lead to food deserts. Such factors can include lack of transportation access, the prevalence of low annual income households, average cost of common food items, and more. 
 
-![food deserts map](img/choro2.png)
+![food deserts map](img/choro2.PNG)
 
-![food deserts map](img/choro1.png)
+![food deserts map](img/choro1.PNG)
 
 ![food deserts map](img/symbolsmap.png)
 
