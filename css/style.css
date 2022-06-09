@@ -83,11 +83,11 @@ a {
     margin-top: 4rem;
     border-radius: 10px;
   }
-  
+
   .map-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  
+
   .card-container {
     padding-left: 2rem;
   }
@@ -95,3 +95,15 @@ a {
   h2 {
       margin: 1rem;
   }
+
+#title {
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25pt;
+    color: black;
+}
