@@ -29,6 +29,10 @@ Local Government officials who can focus on areas lacking in a stable food sourc
  - [USDA: ERS Median Income](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)
  - [Shapefiles](https://github.com/jakobzhao/geog458/tree/master/labs/lab03/assets) From the New York Times and the U.S. Census Bureau
 
+## Applied Libraries and other things
+- Github pages
+- Mapbox
+
 The Main function of our map is to present counties that face higher levels of food deserts. We want to be able to compare rural and urban areas on their food ability status and filter counties based on distance to housing markets. Our map will have the ability to filter these values through many tools on a sidebar such as a slider that changes the mile distance between housing and supermarkets, drop down menus for different themes, and radio buttons that can select either urban, rural, or both areas to be focused on the map.
 
 USDA ERS (CSV File): This Dataset maps food access in rural and urban areas by supermarket distance from housing within census tracts. The data is organized conveniently so grabbing values by county is simple.
