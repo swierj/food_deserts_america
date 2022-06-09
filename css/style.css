@@ -98,10 +98,9 @@ a {
 
 #title {
     position: absolute;
-    background-color: white;
-    bottom: 0;
+    top: 0;
     left: 0;
-    margin-bottom: 20px;
+    margin-top: 20px;
     margin-left: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 25pt;
